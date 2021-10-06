@@ -1,0 +1,443 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  margin: 10px; 
+  font-family: Helvetica, Arial, sans-serif; 
+  background-image:url(images/daniel-eliashevskyi-p1tkpRam2-4-unsplash.jpg);
+  background-size: 100%;
+  background-blend-mode: normal;
+  background-attachment: fixed;
+}
+
+/* index */
+.navigation{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(82, 87, 95, 0.486);
+}
+
+.forside {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(54, 80, 121, 0.863);
+    align-items: center;
+    
+}
+
+.forside img{
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.billeder{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.billeder img{
+    width: 100%;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img{
+    width: -20%; 
+    padding: -40px; 
+}
+
+.icon2{
+    width: -40%;
+    padding: 20px;
+}
+
+.navn{
+    display: flex;
+    color:rgba(251, 251, 255, 0.788);
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.hovedbillede{
+    width: 25%;
+    color: rgba(72, 70, 158, 0.788);
+}
+
+.hovedbillede img{
+    margin-top: 31px;
+    width: 100%;
+    border-radius: 360%;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.f{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.andet-billede img{
+    margin-top: 31px;   
+    border-radius: 360%;
+    width: 100%;
+}
+
+.second-billede img{
+    margin-top: 31px; 
+    border-radius: 360%;
+    width: 100%;
+}
+
+.second-billede{
+    width: 25%;
+    text-align: center;
+    color: rgba(251, 251, 255, 0.788);
+    padding: 31px;
+}
+
+.andet-billede{
+    width: 25%;
+    text-align: center;
+    color: rgba(251, 251, 255, 0.788);
+    padding: 31px;
+}
+
+
+/* menu-bar til semesterene */
+.simple{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 125%;
+    width: 155%;
+    margin: 0 auto 100px auto;
+    padding: 20px;
+}
+
+.simple a{
+    text-decoration: none;
+    color: rgba(251, 251, 255, 0.788);
+    margin-left: 20px;
+}
+
+.simple a:hover{
+    text-decoration:underline;
+    color: rgba(176, 176, 179, 0.788);
+}
+
+/* box på 1. semester side */
+.box{
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+    width: 45%;
+    height: 450px;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+h3{
+    color: rgb(132, 158, 182);
+    display: flex;
+    justify-content: center;
+}
+
+.infomation{
+    color: rgba(251, 251, 255, 0.788);
+    padding-top: 15px;
+}
+
+.box p{
+    color: whitesmoke;
+}
+
+/* photoshop side */
+.c{
+    width: 25%; 
+}
+
+.c img{
+    margin-top: 20px;
+    width: 35%;
+    border-radius: 360%;
+    margin-left: 8px;
+}
+
+.b{
+    display: flex;
+    color:rgba(176, 176, 179, 0.788);
+    justify-content: left;
+    padding-top: 31px;
+    padding-left: 29px;
+}
+
+/* billede */
+
+.orginal_pic{
+    list-style: none;
+    display: flex;
+}
+
+.orginal_pic li{
+    text-decoration: none;
+    padding-left: 200px;
+}
+
+/* .orginal{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+} */
+
+.orginal img{
+    width: 400px;
+}
+
+/* .orginal_text{
+    display: flex;
+    color:rgba(255, 255, 255, 0.788);
+    justify-content: left;
+    padding-top: 31px;
+    padding-left: 550px;
+} */
+
+/* .photoshop_pic{
+    display: flex;
+    justify-items: right;
+    justify-content: space-between;
+    width: 110px;
+} */
+
+.photoshop_pic img{
+    width: 400px;
+}
+
+/* .photoshop_text{
+    display: flex;
+    color:rgba(255, 255, 255, 0.788);
+    justify-content: right;
+    padding-top: 31px;
+    padding-left: 550px;
+} */
+
+/* text box */
+box_photoshop{
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+    width: 30%;
+    height: 450px;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: -500px;
+    padding-left: -50%;
+    padding-right: -50%;
+    box-sizing: border-box;
+}
+
+.box_photoshop p{
+    padding-top: 31px;
+    padding-left: 40px;
+    color:rgba(255, 255, 255, 0.788);
+    font-size: 17px;
+}
+
+.box_photoshop p1{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255, 0.788);
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.box_photoshop p2{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255, 0.788);
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+/* 
+.box_photoshop p3{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255, 0.788);
+    font-size: 17px;
+}
+
+.box_photoshop p4{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255, 0.788);
+    font-size: 17px;
+}
+
+.box_photoshop p5{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 17px;
+} */
+
+/* omg mig */
+.om{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: -500px;
+    padding-left: -50%;
+    padding-right: -50%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.om li{
+    text-decoration: none;
+}
+
+.img_om{
+    width: 50%;
+}
+
+.om_img{
+    width: 40%;
+    border-radius: 360%;
+    margin: 20px;
+    
+}
+
+.om_p{
+    padding-top: 125px;
+    padding-left: 15px;
+    color:rgba(245, 245, 245, 0.795);
+    font-size: 17px;
+    width: 40%;
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+}
+
+.om p1{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 15px;
+    color:rgba(245, 245, 245, 0.795);
+    font-size: 17px;
+}
+
+.om p2{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 15px;
+    color:rgba(245, 245, 245, 0.795);
+    font-size: 17px;
+}
+
+.om p3{
+    display: flex;
+    padding-top: 3px;
+    padding-left: 15px;
+    color:rgba(245, 245, 245, 0.795);
+    font-size: 17px;
+}
+
+
+/* konatkt */
+h1{
+    color: rgb(81, 102, 139);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+h2{
+    color: rgba(245, 245, 245, 0.61);
+    display: flex;
+    justify-content: left;
+    padding-top: 35px;
+    padding-left: 17px;
+}
+
+.knapbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navn_box{
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+    width: 110%;
+    height: 75px;
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.text_navn {
+    color: rgba(251, 251, 255, 0.788);
+}
+
+.email_box{
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+    width: 110%;
+    height: 100px;
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.text_email{
+    color: rgba(251, 251, 255, 0.788);
+
+}
+
+.besked_box{
+    background:rgba(82, 87, 95, 0.486);
+    border: 2px rgba(82, 93, 109, 0.562) solid;
+    width: 110%;
+    height: 200px;
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.text_besked{
+    color: rgba(251, 251, 255, 0.788);
+}
+
+.sendknap{
+    padding: 200px;
+}
+
+.portfolio_xd img{
+    width: 300px;
+    padding-top: 50px;
+    padding-right: 250px;
+}
